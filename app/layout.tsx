@@ -96,7 +96,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
-
+        <meta name="google-site-verification" content="7r5h4A9o8p6wDVWEz-qPM3oXlNfU8sShaQ_arSB_Wd0" />
         {/* Preload critical fonts */}
         <link rel="preload" href="/fonts/inter-var.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
 
