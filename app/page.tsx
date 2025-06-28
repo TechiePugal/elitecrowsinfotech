@@ -856,106 +856,113 @@ export default function HomePage() {
       </section>
 
       {/* Enhanced Footer */}
-      <footer className="py-12 sm:py-16 px-4 bg-gray-950 border-t border-gray-800">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-6 sm:gap-8 mb-8 sm:mb-12">
-            <div className="col-span-2 md:col-span-2">
-              <Logo className="mb-4 sm:mb-6" />
-              <p className="text-gray-400 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
-                Empowering businesses through innovative technology solutions. We transform complex challenges into
-                simple, scalable solutions.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="font-semibold mb-3 sm:mb-4 text-base sm:text-lg">Services</h3>
-              <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-400">
-                <li>
-                  <Link href="/services/edge-computing" className="hover:text-white transition-colors">
-                    Edge Computing
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/ai-ml" className="hover:text-white transition-colors">
-                    AI & Machine Learning
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/cloud" className="hover:text-white transition-colors">
-                    Cloud Solutions
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/custom" className="hover:text-white transition-colors">
-                    Custom Development
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/security" className="hover:text-white transition-colors">
-                    Security Solutions
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/iot" className="hover:text-white transition-colors">
-                    IoT Solutions
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-semibold mb-3 sm:mb-4 text-base sm:text-lg">Company</h3>
-              <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-400">
-                <li>
-                  <Link href="/about" className="hover:text-white transition-colors">
-                    About Us
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/careers" className="hover:text-white transition-colors">
-                    Careers
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/portfolio" className="hover:text-white transition-colors">
-                    Portfolio
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#contact" className="hover:text-white transition-colors">
-                    Contact
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-semibold mb-3 sm:mb-4 text-base sm:text-lg">Connect</h3>
-              <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-400">
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    LinkedIn
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Twitter
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    GitHub
-                  </a>
-                </li>
-              </ul>
-            </div>
+  <footer className="py-12 sm:py-16 px-4 bg-gray-950 border-t border-gray-800">
+      <div className="container mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-6 sm:gap-8 mb-8 sm:mb-12">
+          <div className="col-span-2 md:col-span-2">
+            <Logo className="mb-4 sm:mb-6" />
+            <p className="text-gray-400 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
+              Empowering businesses through innovative technology solutions. We transform complex challenges into
+              simple, scalable solutions.
+            </p>
           </div>
 
-          <div className="border-t border-gray-800 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-gray-400">
-            <p>© 2025 EliteCrows Infotech. All rights reserved.</p>
+          <div>
+            <h3 className="font-semibold mb-3 sm:mb-4 text-base sm:text-lg">Services</h3>
+            <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-400">
+              <li>
+                <Link href="/services/edge-computing" className="hover:text-white transition-colors">
+                  Edge Computing
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/ai-ml" className="hover:text-white transition-colors">
+                  AI & Machine Learning
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/cloud" className="hover:text-white transition-colors">
+                  Cloud Solutions
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/custom" className="hover:text-white transition-colors">
+                  Custom Development
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/security" className="hover:text-white transition-colors">
+                  Security Solutions
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/iot" className="hover:text-white transition-colors">
+                  IoT Solutions
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold mb-3 sm:mb-4 text-base sm:text-lg">Company</h3>
+            <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-400">
+              <li>
+                <Link href="/about" className="hover:text-white transition-colors">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/careers" className="hover:text-white transition-colors">
+                  Careers
+                </Link>
+              </li>
+              <li>
+                <Link href="/portfolio" className="hover:text-white transition-colors">
+                  Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link href="/Terms" className="hover:text-white transition-colors">
+                  Terms & Conditions
+                </Link>
+              </li>
+              <li>
+                <Link href="#contact" className="hover:text-white transition-colors">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold mb-3 sm:mb-4 text-base sm:text-lg">Connect</h3>
+            <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-400">
+              <li>
+                <a href="#" className="hover:text-white transition-colors">
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white transition-colors">
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white transition-colors">
+                  GitHub
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-      </footer>
+
+        <div className="border-t border-gray-800 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-gray-400">
+          <p>© 2025 EliteCrows Infotech. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+ 
+
       <ProjectFormModal isOpen={isProjectModalOpen} onClose={() => setIsProjectModalOpen(false)} />
     </div>
   )
