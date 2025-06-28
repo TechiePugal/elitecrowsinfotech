@@ -237,59 +237,252 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* Privacy & Consent */}
-      <section className="py-12 md:py-20 px-4 bg-gray-950">
-        <div className="container mx-auto max-w-6xl">
-          <div className="grid lg:grid-cols-2 gap-8">
-            <Card className="bg-gradient-to-br from-blue-900/20 to-purple-900/20 border-blue-600/30">
-              <CardContent className="p-6 md:p-8">
-                <div className="flex items-center space-x-3 mb-6">
-                  <Shield className="w-6 h-6 text-blue-400" />
-                  <h3 className="text-xl font-semibold">Privacy & Consent</h3>
-                </div>
-                <div className="space-y-4 text-gray-300">
-                  <p className="leading-relaxed">
-                    By visiting our Platform or providing your information, you consent to the collection, use, storage, 
-                    disclosure and processing of your information in accordance with our Privacy Policy.
-                  </p>
-                  <p className="leading-relaxed">
-                    You consent to us contacting you through SMS, instant messaging apps, call and/or e-mail for the 
-                    purposes specified in our Privacy Policy.
-                  </p>
-                  <p className="leading-relaxed">
-                    You have the option to withdraw your consent by writing to our Grievance Officer. However, 
-                    withdrawal of consent may restrict or deny the provision of our services.
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-gray-900/50 border-gray-700">
-              <CardContent className="p-6 md:p-8">
-                <div className="flex items-center space-x-3 mb-6">
-                  <RefreshCw className="w-6 h-6 text-green-400" />
-                  <h3 className="text-xl font-semibold">Refund Policy</h3>
-                </div>
-                <div className="space-y-4">
-                  <div className="bg-red-900/20 border border-red-600/30 rounded-lg p-4">
-                    <div className="flex items-center space-x-2 mb-2">
-                      <AlertTriangle className="w-5 h-5 text-red-400" />
-                      <span className="font-semibold text-red-300">Important Notice</span>
-                    </div>
-                    <p className="text-gray-300 text-sm">
-                      We are not providing any kind of refund for our services. All sales are final.
-                    </p>
-                  </div>
-                  <p className="text-gray-400 text-sm leading-relaxed">
-                    Please carefully review all service descriptions, terms, and conditions before making any purchase. 
-                    By proceeding with the transaction, you acknowledge and accept this no-refund policy.
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
+{/* Privacy Policy */}
+  <section className="py-12 md:py-20 px-4 bg-gray-950">
+    <div className="container mx-auto max-w-6xl">
+      <div className="text-center mb-12">
+        <div className="flex items-center justify-center mb-6">
+          <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center">
+            <Shield className="w-8 h-8 text-white" />
           </div>
         </div>
-      </section>
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">Privacy Policy</h2>
+        <p className="text-lg text-gray-400 max-w-3xl mx-auto">
+          How we collect, use, and protect your personal information
+        </p>
+      </div>
 
+      <div className="space-y-8">
+        {/* Introduction */}
+        <Card className="bg-gradient-to-br from-green-900/20 to-blue-900/20 border-green-600/30">
+          <CardContent className="p-6 md:p-8">
+            <div className="flex items-center space-x-3 mb-6">
+              <FileText className="w-6 h-6 text-green-400" />
+              <h3 className="text-xl font-semibold">Introduction</h3>
+            </div>
+            <div className="text-gray-300 leading-relaxed space-y-4">
+              <p>
+                This Privacy Policy describes how PUGALENTHI G and its affiliates (collectively PUGALENTHI G, we, our, us) collect, use, share, protect or otherwise process your information/personal data through our website https://www.elitecrows.in/ (hereinafter referred to as Platform).
+              </p>
+              <p>
+                We do not offer any product/service under this Platform outside India and your personal data will primarily be stored and processed in India. By visiting this Platform, providing your information or availing any product/service offered on the Platform, you expressly agree to be bound by the terms and conditions of this Privacy Policy.
+              </p>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Collection */}
+        <Card className="bg-gray-900/50 border-gray-700">
+          <CardContent className="p-6 md:p-8">
+            <div className="flex items-center space-x-3 mb-6">
+              <Users className="w-6 h-6 text-blue-400" />
+              <h3 className="text-xl font-semibold">Data Collection</h3>
+            </div>
+            <div className="text-gray-300 leading-relaxed space-y-4">
+              <p>
+                We collect your personal data when you use our Platform, services or otherwise interact with us during the course of our relationship. Some of the information that we may collect includes but is not limited to:
+              </p>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li>Personal information provided during sign-up such as name, date of birth, address, telephone/mobile number, email ID</li>
+                <li>Payment instrument information such as bank account or credit/debit card details</li>
+                <li>Biometric information such as facial features (when opted for certain features)</li>
+                <li>Transaction information and behavior patterns on our Platform</li>
+              </ul>
+              <div className="bg-yellow-900/20 border border-yellow-600/30 rounded-lg p-4 mt-4">
+                <div className="flex items-center space-x-2 mb-2">
+                  <AlertTriangle className="w-5 h-5 text-yellow-400" />
+                  <span className="font-semibold text-yellow-300">Important Security Notice</span>
+                </div>
+                <p className="text-gray-300 text-sm">
+                  We will never ask for your debit/credit card PIN, net-banking or mobile banking password via email or phone. If you receive such requests, report them immediately to law enforcement.
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Usage */}
+        <Card className="bg-gray-900/50 border-gray-700">
+          <CardContent className="p-6 md:p-8">
+            <div className="flex items-center space-x-3 mb-6">
+              <Zap className="w-6 h-6 text-purple-400" />
+              <h3 className="text-xl font-semibold">How We Use Your Data</h3>
+            </div>
+            <div className="text-gray-300 leading-relaxed space-y-4">
+              <p>We use personal data to:</p>
+              <div className="grid md:grid-cols-2 gap-4">
+                <ul className="list-disc list-inside space-y-2">
+                  <li>Provide the services you request</li>
+                  <li>Enhance customer experience</li>
+                  <li>Resolve disputes and troubleshoot problems</li>
+                  <li>Inform you about offers and updates</li>
+                </ul>
+                <ul className="list-disc list-inside space-y-2">
+                  <li>Detect and protect against fraud</li>
+                  <li>Enforce our terms and conditions</li>
+                  <li>Conduct marketing research and analysis</li>
+                  <li>Customize your platform experience</li>
+                </ul>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Sharing */}
+        <Card className="bg-gray-900/50 border-gray-700">
+          <CardContent className="p-6 md:p-8">
+            <div className="flex items-center space-x-3 mb-6">
+              <Globe className="w-6 h-6 text-orange-400" />
+              <h3 className="text-xl font-semibold">Data Sharing</h3>
+            </div>
+            <div className="text-gray-300 leading-relaxed space-y-4">
+              <p>We may share your personal data with:</p>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li>Our group entities, corporate entities, and affiliates</li>
+                <li>Third parties such as sellers, business partners, logistics partners</li>
+                <li>Payment service providers and reward program partners</li>
+                <li>Government agencies or law enforcement when required by law</li>
+                <li>Third party rights owners to protect intellectual property</li>
+              </ul>
+              <p className="text-sm text-gray-400 mt-4">
+                These disclosures may be required to provide services, comply with legal obligations, enforce agreements, or prevent fraudulent activities.
+              </p>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Security & Rights */}
+        <div className="grid lg:grid-cols-2 gap-8">
+          <Card className="bg-gray-900/50 border-gray-700">
+            <CardContent className="p-6 md:p-8">
+              <div className="flex items-center space-x-3 mb-6">
+                <Lock className="w-6 h-6 text-red-400" />
+                <h3 className="text-xl font-semibold">Security Measures</h3>
+              </div>
+              <div className="text-gray-300 leading-relaxed space-y-4">
+                <p>
+                  We adopt reasonable security practices and procedures to protect your personal data from unauthorized access, disclosure, loss or misuse.
+                </p>
+                <p className="text-sm text-gray-400">
+                  However, data transmission over the internet cannot always be guaranteed as completely secure. Users are responsible for protecting their login credentials.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-gray-900/50 border-gray-700">
+            <CardContent className="p-6 md:p-8">
+              <div className="flex items-center space-x-3 mb-6">
+                <UserCheck className="w-6 h-6 text-cyan-400" />
+                <h3 className="text-xl font-semibold">Your Rights</h3>
+              </div>
+              <div className="text-gray-300 leading-relaxed space-y-4">
+                <p>
+                  You may access, rectify, and update your personal data directly through the functionalities provided on the Platform.
+                </p>
+                <p>
+                  You can delete your account by visiting your profile settings, though this will result in losing all account information.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+
+        {/* Data Retention & Consent */}
+        <div className="grid lg:grid-cols-2 gap-8">
+          <Card className="bg-gray-900/50 border-gray-700">
+            <CardContent className="p-6 md:p-8">
+              <div className="flex items-center space-x-3 mb-6">
+                <RefreshCw className="w-6 h-6 text-green-400" />
+                <h3 className="text-xl font-semibold">Data Retention</h3>
+              </div>
+              <div className="text-gray-300 leading-relaxed space-y-4">
+                <p>
+                  We retain your personal data for a period no longer than required for the purpose it was collected or as required under applicable law.
+                </p>
+                <p className="text-sm text-gray-400">
+                  We may retain data in anonymized form for analytical and research purposes, or if necessary to prevent fraud or for other legitimate purposes.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-blue-900/20 border-blue-600/30">
+            <CardContent className="p-6 md:p-8">
+              <div className="flex items-center space-x-3 mb-6">
+                <CheckCircle className="w-6 h-6 text-blue-400" />
+                <h3 className="text-xl font-semibold">Consent</h3>
+              </div>
+              <div className="text-gray-300 leading-relaxed space-y-4">
+                <p>
+                  By visiting our Platform, you consent to the collection, use, storage, and processing of your information in accordance with this Privacy Policy.
+                </p>
+                <p className="text-sm">
+                  You can withdraw consent by writing to our Grievance Officer, though this may restrict our service provision.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+
+        {/* Policy Changes */}
+        <Card className="bg-gradient-to-br from-purple-900/20 to-blue-900/20 border-purple-600/30">
+          <CardContent className="p-6 md:p-8 text-center">
+            <div className="flex items-center justify-center mb-6">
+              <AlertTriangle className="w-6 h-6 text-purple-400" />
+            </div>
+            <h3 className="text-xl font-semibold mb-4">Policy Updates</h3>
+            <p className="text-gray-300 leading-relaxed max-w-2xl mx-auto">
+              Please check our Privacy Policy periodically for changes. We may update this Privacy Policy to reflect changes to our information practices and will notify you about significant changes as required under applicable laws.
+            </p>
+          </CardContent>
+        </Card>
+      </div>
+    </div>
+  </section>
+
+  {/* Contact Information */}
+  <section className="py-12 md:py-20 px-4">
+    <div className="container mx-auto max-w-4xl">
+      <Card className="bg-gradient-to-br from-blue-900/20 to-purple-900/20 border-blue-600/30">
+        <CardContent className="p-6 md:p-8 text-center">
+          <h3 className="text-2xl font-bold mb-6">Questions About These Terms?</h3>
+          <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
+            All concerns or communications relating to these Terms must be communicated to us using the contact information below.
+          </p>
+          
+          <div className="grid md:grid-cols-3 gap-6 mb-8">
+            <div className="flex flex-col items-center space-y-2">
+              <Mail className="w-8 h-8 text-blue-400" />
+              <span className="font-semibold">Email</span>
+              <span className="text-gray-300 text-sm">elitecrowsindia@gmail.com</span>
+            </div>
+            <div className="flex flex-col items-center space-y-2">
+              <Phone className="w-8 h-8 text-green-400" />
+              <span className="font-semibold">Phone</span>
+              <span className="text-gray-300 text-sm">+91 63831 06107</span>
+            </div>
+            <div className="flex flex-col items-center space-y-2">
+              <MapPin className="w-8 h-8 text-purple-400" />
+              <span className="font-semibold">Address</span>
+              <span className="text-gray-300 text-sm">Erode, Tamil Nadu, India</span>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button className="bg-blue-600 hover:bg-blue-700">
+              <Mail className="mr-2 w-4 h-4" />
+              Contact Us
+            </Button>
+            <Button variant="outline" className="border-gray-600 text-white hover:bg-gray-800">
+              <FileText className="mr-2 w-4 h-4" />
+              Download PDF
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+  </section>
       {/* Contact Information */}
       <section className="py-12 md:py-20 px-4">
         <div className="container mx-auto max-w-4xl">
