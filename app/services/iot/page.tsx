@@ -615,7 +615,7 @@ export default function IoTPage() {
               <CardHeader>
                 <CardTitle className="text-lg md:text-xl">IoT Starter</CardTitle>
                 <CardDescription className="text-sm md:text-base">Perfect for small-scale IoT pilots</CardDescription>
-                <div className="text-2xl md:text-3xl font-bold text-cyan-400">$18,000</div>
+                <div className="text-2xl md:text-3xl font-bold text-cyan-400">₹18,000</div>
                 <div className="text-xs md:text-sm text-gray-400">Pilot deployment + 6 months support</div>
               </CardHeader>
               <CardContent>
@@ -652,7 +652,7 @@ export default function IoTPage() {
               <CardHeader>
                 <CardTitle className="text-lg md:text-xl">IoT Professional</CardTitle>
                 <CardDescription className="text-sm md:text-base">Comprehensive IoT solution</CardDescription>
-                <div className="text-2xl md:text-3xl font-bold text-cyan-400">$65,000</div>
+                <div className="text-2xl md:text-3xl font-bold text-cyan-400">₹65,000</div>
                 <div className="text-xs md:text-sm text-gray-400">Full deployment + 12 months support</div>
               </CardHeader>
               <CardContent>

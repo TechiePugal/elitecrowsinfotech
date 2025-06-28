@@ -524,7 +524,7 @@ export default function SecurityPage() {
               <CardHeader>
                 <CardTitle className="text-lg md:text-xl">Security Essentials</CardTitle>
                 <CardDescription className="text-sm md:text-base">Basic security for small businesses</CardDescription>
-                <div className="text-2xl md:text-3xl font-bold text-red-400">$12,000</div>
+                <div className="text-2xl md:text-3xl font-bold text-red-400">₹12,000</div>
                 <div className="text-xs md:text-sm text-gray-400">Security assessment + implementation</div>
               </CardHeader>
               <CardContent>
@@ -561,7 +561,7 @@ export default function SecurityPage() {
               <CardHeader>
                 <CardTitle className="text-lg md:text-xl">Security Professional</CardTitle>
                 <CardDescription className="text-sm md:text-base">Comprehensive security solution</CardDescription>
-                <div className="text-2xl md:text-3xl font-bold text-red-400">$45,000</div>
+                <div className="text-2xl md:text-3xl font-bold text-red-400">₹45,000</div>
                 <div className="text-xs md:text-sm text-gray-400">Complete security + compliance</div>
               </CardHeader>
               <CardContent>

@@ -392,7 +392,7 @@ export default function EdgeComputingPage() {
               <CardHeader>
                 <CardTitle className="text-xl">Starter Edge</CardTitle>
                 <CardDescription>Perfect for small-scale IoT deployments</CardDescription>
-                <div className="text-3xl font-bold text-blue-400">$5,000</div>
+                <div className="text-3xl font-bold text-blue-400">₹5,000</div>
                 <div className="text-sm text-gray-400">One-time setup + monthly hosting</div>
               </CardHeader>
               <CardContent>
@@ -425,7 +425,7 @@ export default function EdgeComputingPage() {
               <CardHeader>
                 <CardTitle className="text-xl">Enterprise Edge</CardTitle>
                 <CardDescription>Comprehensive edge computing platform</CardDescription>
-                <div className="text-3xl font-bold text-blue-400">$25,000</div>
+                <div className="text-3xl font-bold text-blue-400">₹25,000</div>
                 <div className="text-sm text-gray-400">One-time setup + monthly hosting</div>
               </CardHeader>
               <CardContent>

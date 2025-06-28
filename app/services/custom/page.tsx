@@ -541,7 +541,7 @@ export default function CustomPage() {
                 <CardDescription className="text-sm md:text-base">
                   Perfect for MVPs and small applications
                 </CardDescription>
-                <div className="text-2xl md:text-3xl font-bold text-orange-400">$20,000</div>
+                <div className="text-2xl md:text-3xl font-bold text-orange-400">₹20,000</div>
                 <div className="text-xs md:text-sm text-gray-400">Complete development + 3 months support</div>
               </CardHeader>
               <CardContent>
@@ -578,7 +578,7 @@ export default function CustomPage() {
               <CardHeader>
                 <CardTitle className="text-lg md:text-xl">Business Package</CardTitle>
                 <CardDescription className="text-sm md:text-base">Comprehensive business solutions</CardDescription>
-                <div className="text-2xl md:text-3xl font-bold text-orange-400">$75,000</div>
+                <div className="text-2xl md:text-3xl font-bold text-orange-400">₹75,000</div>
                 <div className="text-xs md:text-sm text-gray-400">Full-featured system + 12 months support</div>
               </CardHeader>
               <CardContent>

@@ -452,7 +452,7 @@ export default function AIMLPage() {
               <CardHeader>
                 <CardTitle className="text-xl">AI Starter</CardTitle>
                 <CardDescription>Perfect for small businesses exploring AI</CardDescription>
-                <div className="text-3xl font-bold text-purple-400">$15,000</div>
+                <div className="text-3xl font-bold text-purple-400">₹15,000</div>
                 <div className="text-sm text-gray-400">One-time development + support</div>
               </CardHeader>
               <CardContent>
@@ -485,7 +485,7 @@ export default function AIMLPage() {
               <CardHeader>
                 <CardTitle className="text-xl">AI Enterprise</CardTitle>
                 <CardDescription>Comprehensive AI transformation</CardDescription>
-                <div className="text-3xl font-bold text-purple-400">$50,000</div>
+                <div className="text-3xl font-bold text-purple-400">₹50,000</div>
                 <div className="text-sm text-gray-400">Complete AI solution + ongoing support</div>
               </CardHeader>
               <CardContent>

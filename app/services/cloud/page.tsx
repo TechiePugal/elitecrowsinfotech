@@ -541,7 +541,7 @@ export default function CloudPage() {
                 <CardDescription className="text-sm md:text-base">
                   Perfect for small applications and websites
                 </CardDescription>
-                <div className="text-2xl md:text-3xl font-bold text-green-400">$8,000</div>
+                <div className="text-2xl md:text-3xl font-bold text-green-400">₹8,000</div>
                 <div className="text-xs md:text-sm text-gray-400">Migration + 3 months support</div>
               </CardHeader>
               <CardContent>
@@ -574,7 +574,7 @@ export default function CloudPage() {
               <CardHeader>
                 <CardTitle className="text-lg md:text-xl">Cloud Enterprise</CardTitle>
                 <CardDescription className="text-sm md:text-base">Comprehensive cloud transformation</CardDescription>
-                <div className="text-2xl md:text-3xl font-bold text-green-400">$35,000</div>
+                <div className="text-2xl md:text-3xl font-bold text-green-400">₹35,000</div>
                 <div className="text-xs md:text-sm text-gray-400">Complete migration + 12 months support</div>
               </CardHeader>
               <CardContent>
