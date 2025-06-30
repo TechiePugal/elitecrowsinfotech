@@ -438,6 +438,21 @@ export default function TermsConditionsPage() {
             </p>
           </CardContent>
         </Card>
+        <Card className="bg-gradient-to-br from-red-900/20 to-blue-900/20 border-red-600/30">
+  <CardContent className="p-6 md:p-8 text-center">
+    <div className="flex items-center justify-center mb-6">
+      <ShieldAlert className="w-6 h-6 text-purple-400" />
+    </div>
+    <h3 className="text-xl font-semibold mb-4">Refund Policy</h3>
+    <p className="text-gray-300 leading-relaxed max-w-2xl mx-auto">
+      We are not providing any kind of refund. All purchases made through our platform are final and non-refundable, regardless of the circumstances. By completing a transaction, you acknowledge and accept this policy.
+      <br /><br />
+      We strongly encourage users to carefully review product or service details, eligibility, and compatibility before making any payment. If you have questions or concerns prior to a purchase, please contact our support team for clarification.
+      <br /><br />
+      Exceptions to this policy may only be made if required under applicable consumer protection laws. In such cases, the decision to issue a refund will be at the sole discretion of EliteCrows Infotech and must meet all legal conditions.
+    </p>
+  </CardContent>
+</Card>
       </div>
     </div>
   </section>
