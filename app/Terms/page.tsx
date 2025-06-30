@@ -449,7 +449,7 @@ export default function TermsConditionsPage() {
       <br /><br />
       We strongly encourage users to carefully review product or service details, eligibility, and compatibility before making any payment. If you have questions or concerns prior to a purchase, please contact our support team for clarification.
       <br /><br />
-      Exceptions to this policy may only be made if required under applicable consumer protection laws. In such cases, the decision to issue a refund will be at the sole discretion of EliteCrows Infotech and must meet all legal conditions.
+      Exceptions to this policy may only be made if required under applicable consumer protection laws.In such cases, the decision to issue a refund will be at the sole discretion of EliteCrows Infotech and must meet all legal conditions.
     </p>
   </CardContent>
 </Card>
